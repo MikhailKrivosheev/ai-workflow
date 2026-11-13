@@ -13,7 +13,13 @@
       "mcp__activecollab__authorize_file_urls",
       "mcp__activecollab__get_task_branches_and_pull_requests",
       "mcp__activecollab__suggest_branch_name",
-      "mcp__activecollab__filter_time_records"
+      "mcp__activecollab__filter_time_records",
+      "Edit(~/ai-workflow/tasks/**)",
+      "Edit(~/ai-workflow/projects/**)"
+    ],
+    "additionalDirectories": [
+      "~/ai-workflow/tasks",
+      "~/ai-workflow/projects"
     ]
   }
 }
