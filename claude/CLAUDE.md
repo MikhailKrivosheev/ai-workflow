@@ -57,3 +57,8 @@
 - Привязка проектов Active Collab к репозиториям: `~/ai-workflow/projects/activecollab.md`.
 - Когда я передаю задачу в работу (в любой формулировке) — используй скилл `task`.
 - Учёт времени и комментарии в Active Collab пока веду я вручную.
+
+## Модели
+- Оркестратор (главный чат T3): Opus 5.5, усилие High — выбирается внизу чата в T3.
+- developer и code-reviewer: Opus 5.5 (high). task-analyst, project-researcher, tester, git-manager: Sonnet 5.5.
+- Fable не используем без моего прямого указания — расходует слишком много лимитов.
