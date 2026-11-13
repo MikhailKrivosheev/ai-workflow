@@ -1,0 +1,6 @@
+# Client data stays local until decided otherwise
+tasks/*
+!tasks/.gitkeep
+# Secrets never go here
+.env
+*.key
