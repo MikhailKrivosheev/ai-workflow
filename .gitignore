@@ -1,4 +1,6 @@
-# Client data stays local until decided otherwise
+# Local-only data: client info never leaves this machine
+projects/*
+!projects/.gitkeep
 tasks/*
 !tasks/.gitkeep
 # Secrets never go here
