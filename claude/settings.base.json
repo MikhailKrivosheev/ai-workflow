@@ -15,11 +15,13 @@
       "mcp__activecollab__suggest_branch_name",
       "mcp__activecollab__filter_time_records",
       "Edit(~/ai-workflow/tasks/**)",
-      "Edit(~/ai-workflow/projects/**)"
+      "Edit(~/ai-workflow/projects/**)",
+      "Edit(~/ai-workflow/claude/rules/learned.md)"
     ],
     "additionalDirectories": [
       "~/ai-workflow/tasks",
-      "~/ai-workflow/projects"
+      "~/ai-workflow/projects",
+      "~/ai-workflow/claude/rules"
     ],
     "ask": [
       "Bash(git push)",
