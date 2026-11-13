@@ -12,3 +12,4 @@ link "$W/claude/CLAUDE.md" ~/.claude/CLAUDE.md
 link "$W/claude/rules"     ~/.claude/rules
 link "$W/claude/agents"    ~/.claude/agents
 for s in "$W"/claude/skills/*/; do if [ -d "$s" ]; then link "${s%/}" ~/.claude/skills/"$(basename "$s")"; fi; done
+python3 "$W/tools/merge_settings.py" "$W/claude/settings.base.json"

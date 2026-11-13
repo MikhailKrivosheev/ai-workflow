@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__activecollab__get_current_user",
+      "mcp__activecollab__get_details_by_id",
+      "mcp__activecollab__get_ids_by_name",
+      "mcp__activecollab__list",
+      "mcp__activecollab__filter_tasks",
+      "mcp__activecollab__filter_projects",
+      "mcp__activecollab__list_comments",
+      "mcp__activecollab__get_history_of_changes",
+      "mcp__activecollab__show_modification",
+      "mcp__activecollab__authorize_file_urls",
+      "mcp__activecollab__get_task_branches_and_pull_requests",
+      "mcp__activecollab__suggest_branch_name",
+      "mcp__activecollab__filter_time_records"
+    ]
+  }
+}
